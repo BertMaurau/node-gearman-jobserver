@@ -3,7 +3,9 @@ A NodeJS worker/client experiment using the Gearman Job Server application
 
 ## Gearman Installation on the Server
 ### Install additional packages for compiling
+```shell
 apt-get -y install wget unzip re2c libgearman-dev php7.1-dev gearman-job-server
+ ```
  
 ### Install from source
 ```shell
