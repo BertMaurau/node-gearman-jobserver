@@ -50,3 +50,32 @@ Send job requests to the server and handle the responses.
 
 ### Server
 Register a new worker for given function.
+
+## Info
+You can check the status of the Gearman server via Telnet
+
+```shell
+telnet 10.32.91.72 4730
+```
+
+### Get the general status
+Shows a nice overview of all the running / Queued jobs
+```shell
+status
+```
+```shell
+status
+reverse	1	1	1
+.
+```
+
+### Get the some info about the workers
+Show all workers and there running status
+```shell
+workers
+```
+```shell
+workers
+34 10.32.91.26 - : reverse
+35 127.0.0.1 - :
+```
