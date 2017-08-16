@@ -79,3 +79,9 @@ workers
 34 10.32.91.26 - : reverse
 35 127.0.0.1 - :
 ```
+
+## PHP Monitor Script
+This is a small, minified / merged PHP file with functions used from the official GearmanManager.
+This script will allow to get the Status, the workers, the version, .. with one simple PHP call.
+
+-- WIP: Still needs some work, like readable JSON format to use in the front-end and stuffs.. 
